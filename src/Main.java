@@ -53,9 +53,9 @@ public class Main {
 
     public static void main(String[] args) throws InterruptedException, ExecutionException {
 
-        final int length = 30_000;
-        final int amountOfStrings = 25;
-        final int capacityForQueue = 10;
+        final int length = 100_000;
+        final int amountOfStrings = 30_000;
+        final int capacityForQueue = 100;
 
         long startThreads = System.currentTimeMillis();
 
