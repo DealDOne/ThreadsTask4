@@ -70,7 +70,6 @@ public class Main {
 
         Thread thread1 = new Thread(() -> {
             for (int tx = 0; tx < amountOfStrings; tx++) {
-//                System.out.println(tx);
                 String letters = "abc";
                 Random random = new Random();
                 StringBuilder text = new StringBuilder();
